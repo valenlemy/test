@@ -1,0 +1,55 @@
+ @font-face { font-family: greatvibes; src: url('greatvibes.ttf'); } 
+
+
+
+.titre{ height: 120px; text-align: center;
+background-color: whitesmoke; 
+font-family: greatvibes;color: #16130A;}
+.logo{ 
+height: 50px;
+width: 50px;}
+
+.logo1{ height: 25px;
+width: 25px;
+text-align: center;
+display: flex;
+    justify-content:center;
+}
+
+#bouton{color: #7E736D;
+border-color: #7E736D;}
+#bouton:hover{color: whitesmoke;
+background-color: #7E736D;}
+.block{background-color: whitesmoke;
+margin: 20px;
+padding: 5px;
+border-radius: 6px;}
+.img{width: 800px;
+height: 400px;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 20px;
+border-radius: 10px;}
+
+.band_img{background-color: pink;
+width: 100%;}
+
+
+.clo_left{float: left; background-color: red; width: 50%;}
+
+.clo_right{float: right; background-color: blue; width: 50%;}
+
+.des_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+
+.art_text{display: flex;
+    justify-content: space-around;
+    align-items: center;}
+
+.btn_pl{display: flex;
+    justify-content: space-around;/
+    align-items: center;}
+
+    .btn{color: brown;}
